@@ -81,6 +81,7 @@ function equal(){
     case '+': $('.display').text(parseFloat(numberStack[0]) + parseFloat(numberStack[1]));break;
     case '-': $('.display').text(parseFloat(numberStack[0]) - parseFloat(numberStack[1]));break;
     case '*': $('.display').text(parseFloat(numberStack[0]) * parseFloat(numberStack[1]));break;
+    case '/': $('.display').text(parseFloat(numberStack[0]) / parseFloat(numberStack[1]));break;
   }
 }
 
