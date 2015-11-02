@@ -70,6 +70,7 @@ function operation(){
     case '+': add();break;
     case '-': subtraction();break;
     case '*': multiply();break;
+    case '/': divide();break;
     case '=': equal();break;
   }
 }
@@ -149,6 +150,24 @@ function multiply(){
     numberStack.push(res);
   }else{
      $('.display').text('*');
+    conductOperation = true;
+  }
+
+   userInput = false;
+   dotClicked = false; 
+}
+
+function divide(){
+  if(conductOperation){
+    var res = numberStack.reduce(function(a,b){
+      return parseFloat(a) / parseFloat(b);
+    });
+    $('.display').text(res);
+    numberStack = [];
+    operatorStack.shift();
+    numberStack.push(res);
+  }else{
+     $('.display').text('/');
     conductOperation = true;
   }
 
