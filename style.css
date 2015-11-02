@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*<div class="operator">&times;</div>
 <div class="operator">&divide;</div>
 
@@ -24,3 +25,19 @@
 .calculator {
 	border: 1px solid black;
 }
+=======
+.buttons,.bt0,.functions {
+	margin: 3px;
+	padding: 25px;
+	font-size: 20px;
+	border: 1px solid grey;
+}
+
+input {
+	width: 220px;
+	height: 50px;
+	font-size: 40px;
+	border: 1px solid black;
+}
+
+>>>>>>> eedeed12c723bfeb96d83331238540156764f24c
