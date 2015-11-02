@@ -1,18 +1,19 @@
-/*<div class="operator">&times;</div>
-<div class="operator">&divide;</div>
+.container {
+	padding-top: 20px;
+	width: 50%;
+	padding: 0px;
+}
 
-*/
-/** {
-	border: dotted red 1px;
-}*/
+.calculator {
+	background-color: grey;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
 .display {
 	text-align: right;
 	font-size: 50px;
 	border-radius: 5px;
-}
-
-.displayPart {
-	padding-bottom: 5px;
 }
 
 .well {
@@ -21,6 +22,10 @@
 	height: 100%;
 }  
 
-.calculator {
-	border: 1px solid black;
+.col-xs-3 {
+	background-color: orange;
 }
+ 
+.firstline {
+	padding-top: 10px;
+} 
