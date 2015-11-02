@@ -1,0 +1,26 @@
+/*<div class="operator">&times;</div>
+<div class="operator">&divide;</div>
+
+*/
+/** {
+	border: dotted red 1px;
+}*/
+.display {
+	text-align: right;
+	font-size: 50px;
+	border-radius: 5px;
+}
+
+.displayPart {
+	padding-bottom: 5px;
+}
+
+.well {
+	text-align: center;
+	width: 100%;
+	height: 100%;
+}
+
+.calculator {
+	border: 1px solid black;
+}
