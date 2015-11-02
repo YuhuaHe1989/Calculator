@@ -73,7 +73,7 @@ function operation(){
     case '=': equal();break;
   }
 }
-    
+      
 function equal(){
   
   switch(operatorStack[0]) {
